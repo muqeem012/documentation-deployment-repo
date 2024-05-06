@@ -18,12 +18,14 @@ class SomeClass {
   /**
    * @method constructor
    * @description Creates the class instance.
-   * @param {Number} height The height value.
-   * @param {Number} width The width value.
+   * @param {String} name The name of person.
+   * @param {String} gender The gender of person.
+   * @param {Number} age The age count.
    */
-  constructor(height, width) {
-    this.height = height;
-    this.width = width;
+  constructor(name, gender, age) {
+    this.name = name;
+    this.gender = gender;
+    this.age = age;
   }
 
   /**
