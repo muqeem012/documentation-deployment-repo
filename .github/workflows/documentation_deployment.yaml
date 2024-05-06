@@ -1,4 +1,4 @@
-# workflow for deploying the documentation on push event
+# workflow for deploying the documentation
 
 name: Deploy Code Documentation on Github Pages
 
