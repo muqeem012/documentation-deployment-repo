@@ -1,4 +1,4 @@
-# workflow for deploying the documentation on github pgs
+# workflow for deploying the documentation on github pages
 
 name: Deploy Code Documentation on Github Pages
 
@@ -6,6 +6,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   deploy_document:
